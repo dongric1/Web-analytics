@@ -1,7 +1,5 @@
 # Web Analytics: Customer Purchase Behavior Analysis
 
----
-
 ## Overview
 
 This project aims to provide an analysis of customer behavior on the Google Merch Shop. The primary objectives include:
@@ -15,14 +13,11 @@ This project aims to provide an analysis of customer behavior on the Google Merc
 
 This analysis simulates real-world scenarios where businesses aim to improve user experience, optimize marketing efforts, and understand customer purchasing behavior. We assume that data accuracy is high, and web events are consistently captured for the analysis.
 
----
 
 ## Problems
 
 1. Session duration problems possibly due to latency problems in website. 
 2. Newsletter Conversion Effectiveness: stakeholders want to understand which version of NewYear campaign newsletter improves conversions.
-
----
 
 ### Analysis Process
 
@@ -39,24 +34,19 @@ For the analysis full dataset from 2020-11-01 to 2021-01-31 was used to analyse 
 SQL queries used for the analysis can be found in `AB testing queries/` folder and `Data viz queries/`.
 
 
----
 ## Findings 
 
----
 
 ## Solutions 
 1. 
 2. 
 3. 
 
----
 ## Conclusions
 
 
----
 ## Next Steps
 
----
 ## Limitations
 
 * Purchase duration is calculated within the same day: if user entered page i.e. before midnight 23:50 EET and finished purchase on next day 00:05 EET, average time to purchase for that customer is 5 minutes.
